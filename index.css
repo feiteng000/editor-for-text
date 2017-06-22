@@ -4,19 +4,21 @@
 }
 body{
     color: white;
+    background-color: #99bc9b;
 }
 #box{
-    background-color: black;
+    background-color: #63483d;
     width: 350px;
     height: 400px;
     border-radius: 5px;
     margin: 0 auto;
     display: block;
+    box-shadow: 1px 2px 10px #2e2b21;
 }
 #show{
     width: 340px;
     height: 150px;
-    background-color: cornflowerblue;
+    background-color: #eecbab;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
@@ -27,30 +29,33 @@ ul{
     list-style-type: none;
 }
 #font{
-    margin-top:50px;
+    margin: 40px 0 0 10px;
 }
 #font ul li{
     height: 50px;
     width: 300px;
 }
-#font ul li span,div{
+#font ul li span,div,p{
     display: inline-block;
 }
 #font ul li span{
     width: 40px;
     padding-left: 10px;
+    text-align: center;
 }
 .move{
-    height: 15px;
-    width: 150px;
-    border-radius: 8px;
-    background-color: pink;
+    height: 17px;
+    width: 165px;
+    padding: 2px;
+    border-radius: 9px;
+    background-color: #ffe7cb;
+    box-shadow: 0 0 20px #ab9a89;
     margin: 0 10px;
 }
 .but{
-    width: 17px;
-    height: 17px;
-    background-color: cornflowerblue;
+    width: 18px;
+    height: 18px;
+    background-color: #ff5b48;
     border-radius: 50%;
     position: relative;
     top: -1px;
@@ -58,7 +63,8 @@ ul{
 }
 .prog{
     height: 17px;
-    background-color:red;
-    border-radius: 8px 0 0 8px;
+    /*background-image: linear-gradient(to bottom,lightgray,darkgray,grey,grey);*/
+    background-color: #fc887b;
+    border-radius: 8px;
     width: 0;
 }
