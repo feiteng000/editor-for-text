@@ -22,7 +22,7 @@ for (var i=0;i<oButLen;i++) {
         var lastLeft = width[this.index];
         document.onmousemove = function (e) {
             width[thisIndex.index] = e.clientX - X + lastLeft;//移动改变的值减掉按下去的值
-            if(width[thisIndex.index]>146)width[thisIndex.index]=146;
+            if(width[thisIndex.index]>141)width[thisIndex.index]=141;
             if(width[thisIndex.index]<0)width[thisIndex.index]=0;
 
             oBut[thisIndex.index].style.left = width[thisIndex.index] + "px";
@@ -30,9 +30,9 @@ for (var i=0;i<oButLen;i++) {
 
 
             if (thisIndex.index == 0){
-                oFont.style.fontSize = width[thisIndex.index]/146*40+8+"px"
+                oFont.style.fontSize = width[thisIndex.index]/141*40+8+"px"
             }else {
-                var num = parseInt(width[thisIndex.index]/146*255);
+                var num = parseInt(width[thisIndex.index]/141*255);
                 rgb[thisIndex.index-1] = num;
                 oFont.style.color = "rgb("+rgb[0]+","+rgb[1]+","+rgb[2]+")";
             }
